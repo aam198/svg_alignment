@@ -1,0 +1,31 @@
+<svg id="_6" data-name="6" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="75" height="75" viewBox="0 0 75 75">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #f1c364;
+        stroke: #3d5e86;
+        stroke-width: 6px;
+        filter: url(#filter);
+      }
+
+      .cls-2 {
+        font-size: 42.333px;
+        text-anchor: middle;
+        font-family: "Open Sans";
+        font-weight: 800;
+      }
+    </style>
+    <filter id="filter" x="0" y="0" width="75" height="75" filterUnits="userSpaceOnUse">
+      <feOffset result="offset" dx="-6.928" dy="4" in="SourceAlpha"/>
+      <feGaussianBlur result="blur" stdDeviation="3"/>
+      <feFlood result="flood" flood-color="#3b5e6e" flood-opacity="0.39"/>
+      <feComposite result="composite" operator="in" in2="blur"/>
+      <feBlend result="blend" in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g style="fill: #f1c364; filter: url(#filter)">
+    <circle id="circle" class="cls-1" cx="44" cy="33" r="25.125" style="stroke: inherit; filter: none; fill: inherit"/>
+  </g>
+  <use xlink:href="#circle" style="stroke: #3d5e86; filter: none; fill: none"/>
+  <text id="_6-2" data-name="6" class="cls-2" x="42.86" y="47.89">6</text>
+</svg>
