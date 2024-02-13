@@ -9,37 +9,34 @@
 
     
   <svg id="Group_1_copy" data-name="Group 1 copy" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="555" height="555" viewBox="0 0 555 555">
+    <!-- Circles: Styling and font  -->
+    <style>
+      .num-circle {
+        fill: #f1c364;
+        stroke-width: 6px;
+        filter: url(#filter);`
+      }
+      .num-circle-font {
+        font-size: 42.333px;
+        text-anchor: middle;
+        font-family: "Open Sans";
+        font-weight: 800;
+      }
+      .lt-blue-fill {
+        fill: #7aa8be;
+        opacity: 0.33;
+      }
+    </style>
     <!-- Light Blue Center Start -->
+    <!-- TODO: Can I update to Group? -->
     <svg  width="317" height="317" viewBox="0 0 320 320" x="122" y="118">
-      <defs>
-        <style>
-          .lt-blue-fill {
-            fill: #7aa8be;
-            opacity: 0.33;
-          }
-        </style>
-      </defs>
       <circle id="Ellipse_5_copy_2" data-name="Ellipse 5 copy 2" class="lt-blue-fill" cx="160.5" cy="160.5" r="160.5"/>
     </svg>
     <!-- Light Blue Center End -->
 
-    <svg id="_1" data-name="5" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="75" height="75" viewBox="0 0 75 75">
+    <!-- Start Number 1 -->
+    <g id="number_1" transform="translate(233, 140)" >
       <defs>
-        <style>
-          .cls-yellow {
-            fill: #f1c364;
-            stroke: #3d5e86;
-            stroke-width: 6px;
-            filter: url(#filter);
-          }
-    
-          .num_1 {
-            font-size: 42.333px;
-            text-anchor: middle;
-            font-family: "Open Sans";
-            font-weight: 800;
-          }
-        </style>
         <filter id="filter" x="0" y="0" width="75" height="75" filterUnits="userSpaceOnUse">
           <feOffset result="offset" dx="-6.928" dy="4" in="SourceAlpha"/>
           <feGaussianBlur result="blur" stdDeviation="3"/>
@@ -49,11 +46,31 @@
         </filter>
       </defs>
       <g style="fill: #f1c364; filter: url(#filter)">
-        <circle id="circle" class="cls-yellow" cx="44" cy="33" r="25.125" style="stroke: inherit; filter: none; fill: inherit"/>
+        <circle id="circle" class="num-circle" cx="44" cy="33" r="25.125" style="stroke: inherit; filter: none; fill: inherit"/>
       </g>
       <use xlink:href="#circle" style="stroke: #3d5e86; filter: none; fill: none"/>
-      <text id="_5-2" data-name="5" class="num_1" x="42.86" y="46.891">1</text>
-    </svg>
+      <text id="_5-2" data-name="5" class="num-circle-font" x="42.86" y="46.891">1</text>
+    </g>
+    <!-- End Number 1 -->
+    
+    <!-- Start Number 2 -->
+    <g id="number_1" transform="translate(335, 270)" >
+      <defs>
+        <filter id="filter" x="0" y="0" width="75" height="75" filterUnits="userSpaceOnUse">
+          <feOffset result="offset" dx="-6.928" dy="4" in="SourceAlpha"/>
+          <feGaussianBlur result="blur" stdDeviation="3"/>
+          <feFlood result="flood" flood-color="#3b5e6e" flood-opacity="0.39"/>
+          <feComposite result="composite" operator="in" in2="blur"/>
+          <feBlend result="blend" in="SourceGraphic"/>
+        </filter>
+      </defs>
+      <g style="fill: #f1c364; filter: url(#filter)">
+        <circle id="circle" class="num-circle" cx="44" cy="33" r="25.125" style="stroke: inherit; filter: none; fill: inherit"/>
+      </g>
+      <use xlink:href="#circle" style="stroke: #3d5e86; filter: none; fill: none"/>
+      <text id="_5-2" data-name="5" class="num-circle-font" x="42.86" y="46.891">2</text>
+    </g>
+    <!-- End Number 2 -->
     
     <!-- 
       START OF CIRCLE OUTLINE
@@ -75,7 +92,18 @@
       END OF CIRCLE OUTLINE
     -->
 
-    <g id="number_opacity-1" transform="translate(77, 338)" >
+  <!-- ELLIPSE THAT ARE FADED -->
+  <!-- Start Number 4 -->
+  
+    <g id="number_4" transform="translate(233, 23)" >
+      <g style="fill: #f1c364; filter: url(#filter)">
+        <circle id="circle" class="num-circle" cx="44" cy="33" r="25.125" style="stroke: inherit; filter: none; fill: inherit"/>
+      </g>
+      <use xlink:href="#circle" style="stroke: #3d5e86; filter: none; fill: none"/>
+      <text id="_4-2" data-name="4" class="num-circle-font" x="42.861" y="46.891">4</text>
+    </g>
+  <!-- Opacity circle overlay -->
+    <g id="number_opacity-4" transform="translate(267, 25)" >
       <defs>
         <style>
           .num_opacity {
@@ -87,41 +115,18 @@
       </defs>
       <path id="Ellipse_opacity" data-name="Ellipse_opacity" class="num_opacity" d="M301.637,46.727A39.637,39.637,0,1,1,262,86.363,39.637,39.637,0,0,1,301.637,46.727Z" transform="translate(-300, -49)"/>
     </g>
-
-  <!-- ELLIPSE THAT ARE FADED -->
-  <!-- Start Number 4 -->
-    <g id="number_4" transform="translate(227, 25)" >
-      <g style="fill: #f1c364; filter: url(#filter)">
-        <circle id="circle" class="num-circle" cx="44" cy="33" r="25.125" style="stroke: inherit; filter: none; fill: inherit"/>
-      </g>
-      <use xlink:href="#circle" style="stroke: #3d5e86; filter: none; fill: none"/>
-      <text id="_4-2" data-name="4" class="num-circle-font" x="42.861" y="46.891">4</text>
-    </g>
     <!-- End Number 4 -->
 
     <!-- Start Number 5 -->
     <g id="number_5" transform="translate(427, 350)" >
       <defs>
-        <style>
-          .num-circle {
-            fill: #f1c364;
-            stroke-width: 6px;
-            filter: url(#filter);`
-          }
-          .num-circle-font {
-            font-size: 42.333px;
-            text-anchor: middle;
-            font-family: "Open Sans";
-            font-weight: 800;
-          }
-        </style>
-          <filter id="filter" x="0" y="0" width="75" height="75" filterUnits="userSpaceOnUse">
-            <feOffset result="offset" dx="-6.928" dy="4" in="SourceAlpha"/>
-            <feGaussianBlur result="blur" stdDeviation="3"/>
-            <feFlood result="flood" flood-color="#3b5e6e" flood-opacity="0.39"/>
-            <feComposite result="composite" operator="in" in2="blur"/>
-            <feBlend result="blend" in="SourceGraphic"/>
-          </filter>
+        <filter id="filter" x="0" y="0" width="75" height="75" filterUnits="userSpaceOnUse">
+          <feOffset result="offset" dx="-6.928" dy="4" in="SourceAlpha"/>
+          <feGaussianBlur result="blur" stdDeviation="3"/>
+          <feFlood result="flood" flood-color="#3b5e6e" flood-opacity="0.39"/>
+          <feComposite result="composite" operator="in" in2="blur"/>
+          <feBlend result="blend" in="SourceGraphic"/>
+        </filter>
       </defs>
         <g style="fill: #f1c364; filter: url(#filter)">
           <circle id="circle" class="num-circle" cx="44" cy="33" r="25.125" style="stroke: inherit; filter: none; fill: inherit"/>
@@ -129,7 +134,7 @@
         <use xlink:href="#circle" style="stroke: #3d5e86; filter: none; fill: none"/>
         <text id="_6-2" data-name="6" class="num-circle-font" x="42.861" y="46.891">5</text>
     </g>
-  
+  <!-- Opacity circle overlay -->
     <g id="number_opacity-5" transform="translate(467, 350)" >
       <path id="Ellipse_opacity" data-name="Ellipse_opacity" class="num_opacity" d="M301.637,46.727A39.637,39.637,0,1,1,262,86.363,39.637,39.637,0,0,1,301.637,46.727Z" transform="translate(-300, -49)"/>
     </g>
