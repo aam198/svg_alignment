@@ -2,6 +2,11 @@
   box-sizing: border-box;
 }
 
+:root{
+  --orange: #f1c364;
+  --lt-blue:#7aa8be;
+}
+
 html {
 font-size: 62.5% /* using rem for font, 22px = 2.2rem*/
 }
@@ -38,4 +43,23 @@ svg{
   height: 100%;
   border-radius: 2rem;
   overflow: visible;
+}
+
+.num-circle{
+  fill: var(--orange);
+  stroke-width: 2px;
+  filter: url(#filter);
+}
+
+.num-circle-font {
+  font-size: 4.2rem;
+  text-anchor: middle;
+  font-family: "Open Sans";
+  font-weight: 800;
+}
+
+
+.lt-blue-fill {
+  fill: var(--lt-blue);
+  opacity: 0.33;
 }
