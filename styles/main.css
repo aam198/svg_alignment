@@ -47,8 +47,10 @@ svg{
 }
 
 .num-circle{
+  position: relative;
+  z-index:100;
   fill: var(--orange);
-  stroke-width: 2px;
+  stroke-width: 3px;
   filter: url(#filter);
   stroke: var(--dark-blue);
 }
@@ -60,11 +62,30 @@ svg{
   font-weight: 800;
 }
 
+#arrowRig{
+  background-image: url('/assets/images/Group_Arrow.svg');
+  height:555px;
+  width:555px;
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-position:50%, 50%;
+  /* position: relative;
+  z-index: -100; */
+}
+
 .lt-blue-fill {
   fill: var(--lt-blue);
   opacity: 0.33;
 }
 
 .circle-show{
+  position:relative;
+  z-index:100;
   cursor: pointer;
+  border: 1px solid red;
+  transition: all 0.3s ease-in;
 }
+
+/* .circle-show:hover{
+  transform: translateY(0.2rem);
+} */
