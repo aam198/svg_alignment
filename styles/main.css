@@ -5,6 +5,7 @@
 :root{
   --orange: #f1c364;
   --lt-blue:#7aa8be;
+  --dark-blue: #3d5e86;
 }
 
 html {
@@ -49,6 +50,7 @@ svg{
   fill: var(--orange);
   stroke-width: 2px;
   filter: url(#filter);
+  stroke: var(--dark-blue);
 }
 
 .num-circle-font {
