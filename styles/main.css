@@ -60,8 +60,11 @@ svg{
   font-weight: 800;
 }
 
-
 .lt-blue-fill {
   fill: var(--lt-blue);
   opacity: 0.33;
+}
+
+.circle-show{
+  cursor: pointer;
 }
