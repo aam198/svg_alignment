@@ -65,8 +65,8 @@ svg{
 
 #arrowRig{
   background-image: url('/assets/images/Group_Arrow.svg');
-  height:555px;
-  width:555px;
+  height:600px;
+  width:600px;
   background-repeat: no-repeat;
   background-size:cover;
   background-position:50%, 50%;
