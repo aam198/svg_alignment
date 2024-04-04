@@ -71,6 +71,7 @@ svg{
   background-size:cover;
   background-position:50%, 50%;
   position:absolute;
+  top: 0;
   /* position: relative;
   z-index: -100; */
 }
