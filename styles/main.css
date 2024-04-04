@@ -72,6 +72,7 @@ svg{
   background-position:50%, 50%;
   position:absolute;
   top: 0;
+  z-index: -100;
   /* position: relative;
   z-index: -100; */
 }
@@ -81,9 +82,21 @@ svg{
   opacity: 0.33;
 }
 
+.center-circle{
+  fill:#4e7197;
+}
+
+.center-text{
+  font-size: 1.3rem;
+  fill: #fff;
+  text-anchor: middle;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+}
+
 .circle-show{
   position:relative;
-  z-index:100;
+  z-index: 100;
   cursor: pointer;
   border: 1px solid red;
   transition: all 0.3s ease-in;
