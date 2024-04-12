@@ -65,8 +65,8 @@ svg{
 
 #arrowRig{
   background-image: url('/assets/images/Group_Arrow.svg');
-  height:600px;
-  width:600px;
+  height:100%;
+  width:100%;
   background-repeat: no-repeat;
   background-size:cover;
   background-position:50%, 50%;
@@ -87,7 +87,7 @@ svg{
 }
 
 .center-text{
-  font-size: 1.3rem;
+  font-size: 2rem;
   fill: #fff;
   text-anchor: middle;
   font-family: 'Open Sans', sans-serif;
