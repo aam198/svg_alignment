@@ -13,7 +13,7 @@ font-size: 62.5% /* using rem for font, 22px = 2.2rem*/
 }
 
 body{
-  height: 100vh;
+
   margin: 0;
   padding: 0;
 }
@@ -40,7 +40,7 @@ body{
 }
 
 svg{
-  display: block;
+  display: inline-block;
   width: 100%;
   height: 100%;
   border-radius: 2rem;
@@ -98,10 +98,9 @@ svg{
   position:relative;
   z-index: 100;
   cursor: pointer;
-  border: 1px solid red;
-  transition: all 0.3s ease-in;
+  transition: all 0.3s ease-out;
 }
 
-/* .circle-show:hover{
+svg .circle-show:hover{
   transform: translateY(0.2rem);
-} */
+}
