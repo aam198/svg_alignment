@@ -98,6 +98,13 @@ svg{
   position:relative;
   z-index: 100;
   cursor: pointer;
-  transition: all .2s;
 }
 
+#circleAndText{
+  transition: transform .2s ease-in-out;
+}
+
+#circleAndText:hover{
+  transform: scale(1.1);
+  transform: translateY(3px);
+}
