@@ -111,3 +111,11 @@ svg{
 #circleAndText:active{
   transform: translate(0rem, 0.75rem);
 }
+
+[role="dialog"][data-open]{
+  display: block;
+}
+
+button#close:focus, button#close:hover{
+  outline: 3px solid #d4aa00;
+}
