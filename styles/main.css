@@ -107,3 +107,7 @@ svg{
 #circleAndText:hover{
   transform: scale(1.1) translateY(3px) translateX(-3px);
 }
+
+#circleAndText:active{
+  transform: translate(0rem, 0.75rem);
+}
