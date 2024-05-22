@@ -119,3 +119,9 @@ svg{
 button#close:focus, button#close:hover{
   outline: 3px solid #d4aa00;
 }
+
+.closeBtn{
+  fill: #95959E;
+  height: 1.2rem;
+  width: 1.2rem;
+}
