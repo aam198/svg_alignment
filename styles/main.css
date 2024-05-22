@@ -39,7 +39,7 @@ body{
   position: relative;
 }
 
-svg{
+svg#Stages_1-3{
   display: inline-block;
   width: 100%;
   height: 100%;
@@ -116,11 +116,18 @@ svg{
   display: block;
 }
 
-button#close:focus, button#close:hover{
-  outline: 3px solid #d4aa00;
+button#close{
+  border: 1px dotted transparent;
+  cursor: pointer;
+  background: transparent;
+}
+
+button#close:focus{
+  outline: 1px dotted #d4aa00;
 }
 
 .closeBtn{
+  display: inline-block;
   fill: #95959E;
   height: 1.2rem;
   width: 1.2rem;
