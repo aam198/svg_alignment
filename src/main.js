@@ -26,4 +26,4 @@ closeButtons.forEach((button) => {
     // Close the dialog
     dialog.close();
   })
-})
+});
