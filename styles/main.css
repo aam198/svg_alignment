@@ -110,7 +110,8 @@ svg#Stages_1-3{
   transition: transform .2s ease-in-out;
 }
 
-#circleAndText:hover{
+#circleAndText:hover, #circleAndText:focus{
+  outline: 0;
   transform: scale(1.1) translateY(3px) translateX(-3px);
 }
 
