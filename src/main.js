@@ -3,7 +3,7 @@ const showDialog = document.getElementById("number_1")
 const showDialog2 = document.getElementById("number_2")
 const dialog1 = document.getElementById('dialog_1')
 const dialog2 = document.getElementById('dialog_2')
-const closeButtons = document.querySelectorAll('dialog button');
+const closeButtons = document.querySelectorAll('#close');
 
 // Show dialog_1 modal
 showDialog.addEventListener('click', () => {
