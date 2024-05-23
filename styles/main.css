@@ -119,6 +119,12 @@ svg#Stages_1-3{
   transform: translate(0rem, 0.75rem);
 }
 
+/* TODO: add pressed look */
+/* 
+.pressed{
+
+} */
+
 /* Dialog Styling */
 
 dialog::backdrop {
