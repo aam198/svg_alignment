@@ -17,7 +17,7 @@
 }
 
 html {
-font-size: 62.5% /* using rem for font, 22px = 2.2rem*/
+font-size: 62.5%; /* using rem for font, 22px = 2.2rem*/
 }
 
 body{
@@ -124,22 +124,20 @@ dialog::backdrop {
   background-color: rgba(255, 255, 255, 0.9);
 }
 
-[role="dialog"][data-open]{
-  display: block;
-}
 
 dialog {
-  display: flex;
-  flex-flow: column nowrap;
-  align-content: flex-start;
   width: 100%;
   max-width: 65rem; 
   border: 0;
   padding: 2.4rem;
   color: var(--dark-blue-300);
   box-shadow: 0 0 4px 0 rgba(168,167,164,0.4);
-  /* overflow-y:auto; */
 }
+
+/* 
+[role="dialog"]{
+  display:flex;
+} */
 
 button#close{
   display: inline-flex;
@@ -159,7 +157,7 @@ button#close:focus{
   height: 1.2rem;
   width: 1.2rem;
   transition: all 200ms ease;
-}
+}  
 
 .closeBtn:hover{
   scale: 1.3;
@@ -168,10 +166,10 @@ button#close:focus{
 
 dialog h1 {
   font-size: 2.4rem;
-}
+} 
 
 dialog p{
   font-size: 1.8rem;
   color:#243850;
   line-height: 2.4rem;
-}
+}  

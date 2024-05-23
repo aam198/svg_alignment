@@ -7,7 +7,7 @@ const closeButtons = document.querySelectorAll('dialog button');
 
 // Show dialog_1 modal
 showDialog.addEventListener('click', () => {
-  dialog1.showModal()
+  dialog1.showModal();
 });
 
 showDialog2.addEventListener('click', () => {
