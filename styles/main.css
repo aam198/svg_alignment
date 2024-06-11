@@ -110,8 +110,13 @@ svg#Stages_1-3{
   transition: transform .2s ease-in-out;
 }
 
-#circleAndText:hover, #circleAndText:focus{
-  outline: 0;
+/* TODO: Update this so when the dialog closes the focus goes to next element */
+#circleAndText:focus{
+  outline: none;
+  transform: scale(1.1) translateY(3px) translateX(-3px);
+}
+
+#circleAndText:hover{
   transform: scale(1.1) translateY(3px) translateX(-3px);
 }
 
@@ -137,7 +142,7 @@ dialog {
   align-content: flex-start;
   width: 100%;
   max-width: 65rem; 
-  border: 0;
+  border: none !important;
   padding: 2.4rem;
   color: var(--dark-blue-300);
   box-shadow: 0 0 4px 0 rgba(168,167,164,0.4);

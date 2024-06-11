@@ -8,6 +8,7 @@ const closeButtons = document.querySelectorAll('#close');
 // Show dialog_1 modal
 showDialog.addEventListener('click', () => {
   dialog1.showModal();
+  dialog1.preventFocus = true;
 });
 
 showDialog2.addEventListener('click', () => {
